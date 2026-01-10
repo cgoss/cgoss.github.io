@@ -401,20 +401,35 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+            nav .container {
+                flex-direction: column;
+                height: auto;
+                padding: 15px 0;
+                gap: 12px;
+            }
+
+            .logo {
+                font-size: 20px;
+                width: 100%;
+                text-align: center;
+            }
+
+            nav ul {
+                gap: 12px;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            nav a {
+                font-size: 12px;
+            }
+
             .hero h1 {
                 font-size: 36px;
             }
 
             .hero .subtitle {
                 font-size: 18px;
-            }
-
-            nav ul {
-                gap: 15px;
-            }
-
-            nav a {
-                font-size: 12px;
             }
 
             .cta-buttons {
