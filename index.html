@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colin Goss - Senior Software Engineer</title>
+    <link rel="icon" type="image/jpeg" href="favicon.jpg">
     <style>
         * {
             margin: 0;
@@ -91,11 +92,34 @@
             align-items: center;
         }
 
+        .hero-profile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--accent);
+            box-shadow: 0 10px 40px rgba(59, 130, 246, 0.3);
+        }
+
         .hero h1 {
             font-size: 54px;
             margin-bottom: 20px;
             font-weight: 800;
             letter-spacing: -1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
         }
 
         .hero .subtitle {
@@ -428,10 +452,11 @@
     <!-- Navigation -->
     <nav>
         <div class="container">
-            <div class="logo">cgoss</div>
+            <div class="logo">Colin Goss</div>
             <ul>
                 <li><a href="#expertise">Expertise</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#leadership">Leadership</a></li>
                 <li><a href="#stack">Stack</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -441,7 +466,10 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h1>Senior Software Engineer</h1>
+            <div class="hero-profile">
+                <img src="ColinGossCartoon.jpg" alt="Colin Goss" class="profile-image">
+            </div>
+            <h1>Colin Goss</h1>
             <div class="subtitle">Building Distributed Systems That Scale</div>
             <p>
                 20+ years of experience designing, building, and operating mission-critical systems.
@@ -544,6 +572,34 @@
                         <span class="skill-tag">Rapid Iteration</span>
                     </div>
                 </div>
+
+                <div class="expertise-card">
+                    <h3>🏛️ Architecture & Design</h3>
+                    <p>
+                        20+ years designing scalable systems with UML documentation.
+                        Deep experience in system architecture, database design, and infrastructure optimization.
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">UML</span>
+                        <span class="skill-tag">System Design</span>
+                        <span class="skill-tag">Architecture</span>
+                        <span class="skill-tag">Infrastructure</span>
+                    </div>
+                </div>
+
+                <div class="expertise-card">
+                    <h3>👥 Technical Leadership</h3>
+                    <p>
+                        Team lead and project lead experience across multiple organizations.
+                        Mentored junior developers, led cross-functional teams, guided strategic initiatives.
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Team Lead</span>
+                        <span class="skill-tag">Project Lead</span>
+                        <span class="skill-tag">Mentoring</span>
+                        <span class="skill-tag">Cross-Functional</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -633,6 +689,62 @@
                     Developed integration scripts for automated bank transaction processing.
                     Evaluated software packages and provided guidance on cloud infrastructure security.
                     Coordinated with financial institutions for large-scale payment data integration.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architecture & Leadership Section -->
+    <section id="leadership">
+        <div class="container">
+            <h2 class="section-title">Architecture & Technical Leadership</h2>
+
+            <div class="experience-highlight">
+                <h4>System Architecture & Design Leadership</h4>
+                <div class="company">Y.M.C.A (Oct 2000 - Jan 2001) | Upside Software (2001-2003)</div>
+                <div class="dates">Systems Analyst I (Team Lead) | Project Lead</div>
+                <p>
+                    Led cross-functional teams in database-driven application development with comprehensive UML documentation.
+                    Produced detailed technical specifications: Use Case Diagrams, Activity Diagrams, Class Design Diagrams, Sequence Diagrams.
+                    Led major data migration project for BNSF (3GB+ data), managing schema upgrades and team coordination.
+                    Mentored junior developers and ensured code quality through peer reviews.
+                </p>
+            </div>
+
+            <div class="experience-highlight">
+                <h4>Enterprise Infrastructure Architecture</h4>
+                <div class="company">PNI Digital Media (Jan 2016 - Nov 2017)</div>
+                <div class="dates">Backup Team Lead | Production Operations</div>
+                <p>
+                    Architected consolidated platform support tools for 300+ server infrastructure.
+                    Led strategic migration to Azure cloud platform with infrastructure optimization.
+                    Championed Continuous Integration initiatives across development teams.
+                    **Achieved 96% efficiency improvement**: Reduced deployment process from 15 minutes to one-click automation.
+                </p>
+            </div>
+
+            <div class="experience-highlight">
+                <h4>Distributed Systems Architecture</h4>
+                <div class="company">Elevated Prompt (Nov 2017 - Jun 2019)</div>
+                <div class="dates">Senior Developer - Platform Engineer</div>
+                <p>
+                    Designed and built distributed, scalable data analysis and alerting engine processing millions of events/second.
+                    Architected Big Data infrastructure using Hadoop, Spark, and Kafka for terabyte-scale data processing.
+                    Built comprehensive management UI for ELK Stack cybersecurity monitoring system.
+                    Demonstrated autonomous architecture decisions in 0-to-1 startup environment.
+                </p>
+            </div>
+
+            <div class="experience-highlight">
+                <h4>Business Analysis & Strategic Recommendations</h4>
+                <div class="company">Government of Alberta | Alberta Health Services | BC Hydro</div>
+                <div class="dates">Various Roles (1999-2022)</div>
+                <p>
+                    Gathered requirements through stakeholder interviews and client meetings across complex, multi-organizational environments.
+                    Translated business requirements into technical specifications and system architecture.
+                    Provided architectural recommendations for system enhancements and modifications.
+                    Conducted cost-benefit analysis and technology evaluations for strategic initiatives.
+                    Led complex application migrations requiring cross-organizational coordination.
                 </p>
             </div>
         </div>
@@ -751,7 +863,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 Colin Goss. Senior Software Engineer. Building scalable systems.</p>
+            <p>&copy; 2026 Colin Goss | Senior Software Engineer | Architect | Technical Leader</p>
         </div>
     </footer>
 </body>
