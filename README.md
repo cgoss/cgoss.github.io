@@ -33,7 +33,6 @@ I'm a Senior Software Engineer specializing in:
 
 - **LinkedIn**: [linkedin.com/in/colin-goss](https://linkedin.com/in/colin-goss)
 - **GitHub**: [github.com/cgoss](https://github.com/cgoss)
-- **Email**: colin.goss@gmail.com
 
 ---
 
