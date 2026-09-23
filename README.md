@@ -81,5 +81,4 @@ apple-touch-icon.png    iOS home screen icon
 
 - **LinkedIn** — [linkedin.com/in/colin-goss](https://linkedin.com/in/colin-goss)
 - **GitHub** — [github.com/cgoss](https://github.com/cgoss)
-- **Medium** — [@colin.goss](https://medium.com/@colin.goss) *(just getting started — first pieces going up shortly)*
 - **Email** — colin.goss@gmail.com
